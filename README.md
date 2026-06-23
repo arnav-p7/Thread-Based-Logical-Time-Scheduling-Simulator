@@ -72,4 +72,38 @@ Output saved as `results_chart.png` after each run.
 
 ---
 
-## 📁 Repository Structure
+## 🚀 How to Run
+
+```bash
+# Build
+make
+
+# Run
+./main
+
+# View chart
+open results_chart.png    # macOS
+xdg-open results_chart.png  # Linux
+```
+
+**Input format** (`input.txt`):
+<number_of_processes>
+
+<PID> <Arrival> <Burst> <Priority> <IO_Burst>
+
+...
+
+<quantum>
+
+**Example:**
+4
+
+1 0 8 2 2
+
+2 1 4 1 0
+
+3 2 9 3 1
+
+4 3 5 2 0
+
+2
