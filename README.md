@@ -88,7 +88,7 @@ xdg-open results_chart.png  # Linux
 
 **Input format** (`input.txt`):
 
-<number_of_processes>
+<number_of_procecsses>
 <PID> <Arrival> <Burst> <Priority> <IO_Burst>
 ...
 <quantum>
